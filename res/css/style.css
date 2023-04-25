@@ -1,0 +1,22 @@
+#all{
+    margin: 0 auto;
+    text-align:center;
+    width:90%;
+    background-color:brown;
+}
+#Title{
+    font-size:xx-large;
+}
+#GenInfo{
+    margin-right:30%; 
+}
+#OpenHours{
+    margin-left:30%;
+}
+#GuesthouseInfo{
+    margin-right:30%; 
+}
+#Contacts{
+    color:white;
+    background-color:black;
+}

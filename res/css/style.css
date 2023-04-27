@@ -3,6 +3,8 @@
 
 * {
   font-family: "Josefin Sans", sans-serif;
+  scroll-behavior: smooth;
+  user-select: none;
 }
 
 #all {
@@ -12,28 +14,68 @@
   background-color: brown;
 }
 
-#Title {
+#menu {
+  background-color: #fff;
   height: 100px;
-  width: 70%;
-  margin: 0 auto;
-  background-color: white;
-  font-family: "Montserrat", sans-serif;
-  font-size: 40pt;
+  font-size: 20pt;
+  text-align: right;
+  width: 100%;
+  margin-top: 20px;
 }
 
-#GenInfo {
+#menu a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+#menu img {
+  float: left;
+  margin-top: 10px;
+}
+
+#title {
+  height: 900px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+  background-image: url(../img/headerImage.jpg);
+  font-family: "Montserrat", sans-serif;
+  font-size: 60pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+#titleText {
+  width: 100%;
+}
+
+#title a {
+  font-size: 16px;
+  margin-top: 200px;
+  position: absolute;
+  text-decoration: none;
+  color: #ffffff;
+ 
+}
+
+#genInfo {
   margin-right: 30%;
 }
 
-#OpenHours {
+#openHours {
   margin-left: 30%;
 }
 
-#GuesthouseInfo {
+#guesthouseInfo {
   margin-right: 30%;
 }
 
-#Contacts {
+#contacts {
   color: white;
   background-color: black;
 }

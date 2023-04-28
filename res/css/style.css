@@ -40,8 +40,8 @@
 }
 
 #title {
-  height: 1000px;
-  width: 80%;
+  height: 900px;
+  width: 75%;
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0 auto;
@@ -86,4 +86,38 @@
   color: white;
   background-color: black;
   font-size:x-large;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+@media only screen and (max-width: 1082px) {
+  #title {
+    height:700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    background-image: url(../img/headerImage.jpg);
+    font-family: "Montserrat", sans-serif;
+    font-size: 60pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  #title a {
+    font-size: x-large;
+    position: absolute;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top:-300px;
+   
+  }
+  #titleText {
+    margin-top:-400px;
+font-size:xx-large;
+  }
+  #menu a {
+    display:none;
+  }
+
+  
 }

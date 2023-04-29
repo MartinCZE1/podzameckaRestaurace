@@ -16,11 +16,15 @@
   <body>
     <div id="all">
       <div id="menu">
-        <img src="" alt="Logo restaurace">
-        <a href="#info">Úvod</a>
-        <a href="">Restaurace</a>
-        <a href="">Penzion</a>
-        <a href="#contacts">Kontakty</a>
+        <a href="#all"
+          ><img src="./res/img/logo.png" alt="Logo restaurace" />
+        </a>
+        <div id="menuLinks">
+          <a href="#info">Úvod</a>
+          <a href="">Restaurace</a>
+          <a href="">Penzion</a>
+          <a href="#contacts">Kontakty</a>
+        </div>
       </div>
       <div id="title">
         <div id="titleText">Podzámecká restaurace</div>
@@ -32,8 +36,22 @@
         <div id="guestHouseInfo">Penzion info</div>
       </div>
       <div id="gallery"></div>
-      <div id="contacts">
-        <div>Kontakty</div>
+      <div id="mapContainer">
+        <h1>Kde nás najdete?</h1>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2536.388469098168!2d14.967702876338704!3d50.52694437160694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47095269e470537b%3A0xb97e736706660fb0!2sPodz%C3%A1meck%C3%A1%20restaurace!5e0!3m2!1scs!2scz!4v1682751375787!5m2!1scs!2scz"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div id="contactsWrapper">
+        <div id="contacts">
+          <h3>Kontakty</h3>
+          <span id="adress">Arnoldova 91, 295 01, Mnichovo Hradiště</span>
+          <span id="phoneNumber">326 773 091</span>
+          <span id="mobileNumber">728 322 285</span>
+        </div>
       </div>
     </div>
     <script type="text/javascript" src="./res/js/main.js"></script>

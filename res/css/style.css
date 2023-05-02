@@ -131,7 +131,7 @@ iframe {
     margin: 0 auto;
     background-image: url(../img/headerImage.jpg);
     font-family: "Montserrat", sans-serif;
-    font-size: 60pt;
+    font-size: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,21 +167,51 @@ iframe {
     height: 300px;
   }
 }
-
 @media only screen and (max-width: 800px) {
+  #titleText{
+    font-size:xx-large;
+    margin-bottom: 300px;
+  }
+  #title a{
+    font-size: x-large;
+    margin-bottom: 400px;
+  }
+}
+@media only screen and (max-width: 500px) {
+body{
+  margin:0;
+  padding:0;
+}
   #all{
+    position: absolute;
+    margin: 0 auto;
     width:100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
   #menu{
     width:100%;
   }
-  #title {
-    height: 500px;
-    width:100%;
+  #menu a {
+    padding:0%;
   }
- 
-  #titleText, #title a {
-    margin-bottom: 100px;
+  #title {
+    height: 350px;
+    width:100%;
+
+  }
+  #titleText{
+    font-size:xx-large;
+    margin-bottom: 0px;
+  }
+  #title a{
+    font-size: x-large;
+    margin-bottom: 0px;
+  }
+  #menuLinks{
+    display: none;
+    width:0px;
+    height:0px;
   }
 
   iframe {
@@ -191,8 +221,12 @@ iframe {
   #contactsWrapper {
     font-size: 13pt;
   }
-  #logo{
- margin-left:40%;
-  }
+  #menu img{
+    float: none;
 
+  }
+  #menu{
+    margin: 0 auto;
+    text-align: center;
+}
 }

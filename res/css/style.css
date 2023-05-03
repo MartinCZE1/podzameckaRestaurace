@@ -216,17 +216,22 @@ iframe {
   #genInfo {
     width: 100%;
     margin-bottom: 10px;
+    font-size: 13pt;
   }
+  
   #openHours {
     width: 100%;
     float: left;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 13pt;
   }
+
   #guestHouseInfo {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 13pt;
   }
 
   #imageTwo {

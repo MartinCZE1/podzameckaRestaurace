@@ -25,8 +25,9 @@ mode.onclick = () => {
         guestHouseInfo.style.backgroundColor="white";
         moreInfo.style.color="white";
         document.body.style.backgroundColor="white";
-        all.style.backgroundColor="white";
+        all.style.backgroundColor="#f2f2f2";
         menu.style.filter="invert(0%)";
+
     }
     num++;
 }

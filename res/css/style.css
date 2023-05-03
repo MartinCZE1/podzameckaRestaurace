@@ -4,14 +4,13 @@
 * {
   font-family: "Josefin Sans", sans-serif;
   scroll-behavior: smooth;
-  user-select: none;
 }
 
 #all {
   margin: 0 auto;
   text-align: center;
-  width: 90%;
-  background-color: brown;
+  width: 100%;
+  background-color: #f2f2f2;
 }
 
 #menu {
@@ -19,7 +18,7 @@
   height: 100px;
   font-size: 20pt;
   text-align: right;
-  width: 90%;
+  width: 100%;
   overflow: hidden;
   position: fixed;
   top: 0px;
@@ -71,27 +70,68 @@
   color: #ffffff;
 }
 
+#genInfo h2 {
+  text-align: center;
+}
+
 #genInfo {
- 
   font-size: x-large;
+  width: 45%;
+  text-align: left;
+  background-color: #ffffff;
+  padding-left: 25px;
+  padding: 15px;
+  float: left;
+  margin-bottom: 40px;
+  border: solid 0.5px #000000;
+  border-radius: 10px;
+}
+
+#genInfo a {
+  text-decoration: underline;
+  color: #000000;
+}
+
+#openHours h2 {
+  text-align: center;
 }
 
 #openHours {
-
   font-size: x-large;
+  width: 45%;
+  text-align: left;
+  background-color: #ffffff;
+  padding-left: 25px;
+  padding: 15px;
+  float: right;
+  margin-top: 40px;
+  padding-bottom: 0px;
+  border: solid 0.5px #000000;
+  border-radius: 10px;
+}
+
+#guestHouseInfo h2 {
+  text-align: center;
 }
 
 #guestHouseInfo {
-
   font-size: x-large;
+  width: 45%;
+  text-align: left;
+  background-color: #ffffff;
+  padding-left: 25px;
+  padding: 15px;
+  float: left;
+  margin-top: 40px;
+  padding-bottom: 0px;
+  border: solid 0.5px #000000;
+  border-radius: 10px;
 }
 
 #contactsWrapper {
   color: white;
   background-color: black;
   font-size: 16pt;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
 }
 
 #contacts {
@@ -117,15 +157,20 @@
   display: block;
 }
 
+#mapContainer {
+  font-size: x-large;
+}
+
 iframe {
   width: 100%;
   height: 500px;
-  border-radius: 25px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
 }
 
 @media only screen and (max-width: 1250px) {
   #title {
-    width:100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0 auto;
@@ -143,13 +188,12 @@ iframe {
     position: absolute;
     text-decoration: none;
     color: #ffffff;
-    margin-bottom:50px;
+    margin-bottom: 50px;
   }
 
   #titleText {
     font-size: 60pt;
   }
-
 
   #adress::before {
     display: inline;
@@ -167,51 +211,79 @@ iframe {
     height: 300px;
   }
 }
+
+@media only screen and (max-width: 1100px) {
+  #genInfo {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #openHours {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #guestHouseInfo {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #imageTwo {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 800px) {
-  #titleText{
-    font-size:xx-large;
+  #titleText {
+    font-size: xx-large;
     margin-bottom: 300px;
   }
-  #title a{
-    font-size: x-large;
-    margin-bottom: 400px;
+  #title a {
+    display: none;
+  }
+
+  #genInfo {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    background-size: contain;
   }
 }
 @media only screen and (max-width: 500px) {
-body{
-  margin:0;
-  padding:0;
-}
-  #all{
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  #all {
     position: absolute;
     margin: 0 auto;
-    width:100%;
+    width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
   }
-  #menu{
-    width:100%;
+  #menu {
+    width: 100%;
   }
   #menu a {
-    padding:0%;
+    padding: 0%;
   }
   #title {
     height: 350px;
-    width:100%;
-
+    width: 100%;
   }
-  #titleText{
-    font-size:xx-large;
+  #titleText {
+    font-size: xx-large;
     margin-bottom: 0px;
   }
-  #title a{
+  #title a {
     font-size: x-large;
     margin-bottom: 0px;
   }
-  #menuLinks{
+  #menuLinks {
     display: none;
-    width:0px;
-    height:0px;
+    width: 0px;
+    height: 0px;
   }
 
   iframe {
@@ -221,12 +293,11 @@ body{
   #contactsWrapper {
     font-size: 13pt;
   }
-  #menu img{
+  #menu img {
     float: none;
-
   }
-  #menu{
+  #menu {
     margin: 0 auto;
     text-align: center;
-}
+  }
 }

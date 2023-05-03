@@ -5,7 +5,6 @@
   font-family: "Josefin Sans", sans-serif;
   scroll-behavior: smooth;
 }
-
 #all {
   margin: 0 auto;
   text-align: center;
@@ -22,6 +21,8 @@
   overflow: hidden;
   position: fixed;
   top: 0px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 #menuLinks {
@@ -49,7 +50,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0 auto;
-  background-image: url(../img/headerImage.jpg);
+  background-image: url(../img/headerImage2.jpg);
   font-family: "Montserrat", sans-serif;
   font-size: 60pt;
   display: flex;
@@ -159,6 +160,8 @@
 
 #mapContainer {
   font-size: x-large;
+  width:99.8%;
+  height:570px;
 }
 
 iframe {
@@ -166,6 +169,7 @@ iframe {
   height: 500px;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
+  
 }
 
 @media only screen and (max-width: 1250px) {
@@ -174,7 +178,7 @@ iframe {
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0 auto;
-    background-image: url(../img/headerImage.jpg);
+    background-image: url(../img/headerImage2.jpg);
     font-family: "Montserrat", sans-serif;
     font-size: 100%;
     display: flex;
@@ -210,6 +214,10 @@ iframe {
   iframe {
     height: 300px;
   }
+  #mapContainer {
+    height:370px;
+    width:99%;
+  }
 }
 
 @media only screen and (max-width: 1100px) {
@@ -235,6 +243,9 @@ iframe {
   }
 
   #imageTwo {
+    width: 100%;
+  }
+  #imageThree {
     width: 100%;
   }
 }
@@ -292,7 +303,10 @@ iframe {
   }
 
   iframe {
-    height: 250px;
+    height: 200px;
+  }
+  #mapContainer{
+    height:270px;
   }
 
   #contactsWrapper {

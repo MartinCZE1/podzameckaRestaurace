@@ -5,23 +5,26 @@
   font-family: "Josefin Sans", sans-serif;
   scroll-behavior: smooth;
 }
+
 #all {
   margin: 0 auto;
   text-align: center;
   width: 100%;
   background-color: #f2f2f2;
 }
-#darkMode{
-  margin-left:20px;
-  position:fixed;
-  bottom:0;
-  
+
+#darkMode {
+  margin-left: 20px;
+  position: fixed;
+  bottom: 0;
+
 }
-#mode{
-  background-color:white;
-  width:90px;
+
+#mode {
+  background-color: white;
+  width: 90px;
   border-radius: 50px;
-  box-shadow:  3px 3px 4px gray;
+  box-shadow: 3px 3px 4px gray;
 }
 
 #menu {
@@ -35,7 +38,8 @@
   top: 0px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  box-shadow:  3px 3px 4px gray;;
+  box-shadow: 3px 3px 4px gray;
+  
 }
 
 #menuLinks {
@@ -173,8 +177,8 @@
 
 #mapContainer {
   font-size: x-large;
-  width:99.8%;
-  height:570px;
+  width: 99.8%;
+  height: 570px;
 }
 
 iframe {
@@ -183,14 +187,17 @@ iframe {
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   border: 1px solid black;
-  
+
 }
+
 #imageTwo {
   border-radius: 10px;
 }
+
 #imageThree {
   border-radius: 10px;
 }
+
 #imageOne {
   border-radius: 10px;
 }
@@ -237,9 +244,10 @@ iframe {
   iframe {
     height: 300px;
   }
+
   #mapContainer {
-    height:370px;
-    width:99%;
+    height: 370px;
+    width: 99%;
   }
 }
 
@@ -249,7 +257,7 @@ iframe {
     margin-bottom: 10px;
     font-size: 13pt;
   }
-  
+
   #openHours {
     width: 100%;
     float: left;
@@ -269,10 +277,12 @@ iframe {
     width: 100%;
     margin: 0 auto;
   }
+
   #imageThree {
     width: 100%;
     margin: 0 auto;
   }
+
   #imageOne {
     width: 100%;
     margin: 0 auto;
@@ -284,6 +294,7 @@ iframe {
     font-size: xx-large;
     margin-bottom: 300px;
   }
+
   #title a {
     display: none;
   }
@@ -295,11 +306,13 @@ iframe {
     background-size: contain;
   }
 }
+
 @media only screen and (max-width: 500px) {
   body {
     margin: 0;
     padding: 0;
   }
+
   #all {
     position: absolute;
     margin: 0 auto;
@@ -307,24 +320,30 @@ iframe {
     overflow-x: hidden;
     overflow-y: hidden;
   }
+
   #menu {
     width: 100%;
   }
+
   #menu a {
     padding: 0%;
   }
+
   #title {
     height: 350px;
     width: 100%;
   }
+
   #titleText {
     font-size: xx-large;
     margin-bottom: 0px;
   }
+
   #title a {
     font-size: x-large;
     margin-bottom: 0px;
   }
+
   #menuLinks {
     display: none;
     width: 0px;
@@ -334,32 +353,39 @@ iframe {
   iframe {
     height: 200px;
   }
-  #mapContainer{
-    height:270px;
+
+  #mapContainer {
+    height: 270px;
   }
 
   #contactsWrapper {
     font-size: 13pt;
   }
+
   #menu img {
     float: none;
   }
+
   #menu {
     margin: 0 auto;
     text-align: center;
   }
+
   #genInfo {
-   width:91%;
-   margin: 0 auto;
-  }  
-  #guestHouseInfo{
-    width:91%;
+    width: 91%;
+    margin: 0 auto;
   }
-  #openHours{
-    width:91%;
+
+  #guestHouseInfo {
+    width: 91%;
   }
-  #mode{
-    margin-left:0px;
-    width:50px;
+
+  #openHours {
+    width: 91%;
+  }
+
+  #mode {
+    margin-left: 0px;
+    width: 50px;
   }
 }

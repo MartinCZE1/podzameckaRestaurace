@@ -176,10 +176,6 @@
   display: block;
 }
 
-#mapH2 {
-  color: #000000;
-}
-
 #mapContainer {
   font-size: x-large;
   width: 99.8%;
@@ -192,6 +188,7 @@ iframe {
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   border: 1px solid black;
+
 }
 
 #imageTwo {

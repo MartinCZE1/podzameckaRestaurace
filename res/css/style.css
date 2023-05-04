@@ -17,7 +17,7 @@
   margin-left: 20px;
   position: fixed;
   bottom: 0;
-
+  z-index: 1;
 }
 
 #mode {
@@ -25,6 +25,7 @@
   width: 90px;
   border-radius: 50px;
   box-shadow: 3px 3px 4px gray;
+  cursor: pointer;
 }
 
 #menu {
@@ -39,7 +40,7 @@
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   box-shadow: 3px 3px 4px gray;
-  
+  z-index: 1;
 }
 
 #menuLinks {
@@ -175,6 +176,10 @@
   display: block;
 }
 
+#mapH2 {
+  color: #000000;
+}
+
 #mapContainer {
   font-size: x-large;
   width: 99.8%;
@@ -187,7 +192,6 @@ iframe {
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   border: 1px solid black;
-
 }
 
 #imageTwo {

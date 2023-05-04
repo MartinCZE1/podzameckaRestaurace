@@ -11,6 +11,18 @@
   width: 100%;
   background-color: #f2f2f2;
 }
+#darkMode{
+  margin-left:20px;
+  position:fixed;
+  bottom:0;
+  
+}
+#mode{
+  background-color:white;
+  width:90px;
+  border-radius: 50px;
+  box-shadow:  3px 3px 4px gray;
+}
 
 #menu {
   background-color: #fff;
@@ -23,6 +35,7 @@
   top: 0px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  box-shadow:  3px 3px 4px gray;;
 }
 
 #menuLinks {
@@ -100,7 +113,7 @@
 #openHours {
   font-size: x-large;
   width: 45%;
-  text-align: left;
+  text-align: center;
   background-color: #ffffff;
   padding-left: 25px;
   padding: 15px;
@@ -169,7 +182,17 @@ iframe {
   height: 500px;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
+  border: 1px solid black;
   
+}
+#imageTwo {
+  border-radius: 10px;
+}
+#imageThree {
+  border-radius: 10px;
+}
+#imageOne {
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 1250px) {
@@ -244,9 +267,15 @@ iframe {
 
   #imageTwo {
     width: 100%;
+    margin: 0 auto;
   }
   #imageThree {
     width: 100%;
+    margin: 0 auto;
+  }
+  #imageOne {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
@@ -318,5 +347,19 @@ iframe {
   #menu {
     margin: 0 auto;
     text-align: center;
+  }
+  #genInfo {
+   width:91%;
+   margin: 0 auto;
+  }  
+  #guestHouseInfo{
+    width:91%;
+  }
+  #openHours{
+    width:91%;
+  }
+  #mode{
+    margin-left:0px;
+    width:50px;
   }
 }

@@ -29,11 +29,12 @@ mode.onclick = () => {
         guestHouseInfo.style.backgroundColor="white";
         moreInfo.style.color="white";
         document.body.style.backgroundColor="white";
-        all.style.backgroundColor="white";
+        all.style.backgroundColor="#f2f2f2";
         menu.style.filter="invert(0%)";
         mode.style.filter="invert(0%)";
         mode.style.boxShadow="3px 3px 4px gray";
     menu.style.boxShadow="3px 3px 4px gray";
+
     }
     num++;
 }

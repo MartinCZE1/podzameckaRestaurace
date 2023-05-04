@@ -10,7 +10,6 @@ const mapContainer = document.getElementById("mapContainer");
 let num = 1;
 mode.onclick = () => {
   if (num % 2 == 1) {
-    mapContainer.style.color = "white";
     openHours.style.backgroundColor = "#c4c4c4";
     genInfo.style.backgroundColor = "#c4c4c4";
     guestHouseInfo.style.backgroundColor = "#c4c4c4";
@@ -22,9 +21,7 @@ mode.onclick = () => {
     mode.style.filter = "invert(100%)";
     mode.style.boxShadow = "3px 3px 4px lightgray";
     menu.style.boxShadow = "3px 3px 4px lightgray";
-    mapH2.style.color = "black";
   } else if (num % 2 == 0) {
-    mapContainer.style.color = "black";
     openHours.style.backgroundColor = "white";
     genInfo.style.backgroundColor = "white";
     guestHouseInfo.style.backgroundColor = "white";
@@ -36,7 +33,7 @@ mode.onclick = () => {
     mode.style.boxShadow = "3px 3px 4px gray";
     menu.style.boxShadow = "3px 3px 4px gray";
     mapContainer.style.filter = "invert(0%)";
-    mapH2.style.color = "white";
+   
   }
   num++;
 };

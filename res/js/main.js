@@ -6,7 +6,7 @@ const genInfo = document.getElementById("genInfo");
 const openHours = document.getElementById("openHours");
 const guestHouseInfo = document.getElementById("guestHouseInfo");
 const mapContainer = document.getElementById("mapContainer");
-
+const burgerMenu = document.getElementById("burgerMenu");
 const burgerMenuImg = document.getElementById("burgerMenuImg");
 const burgerMenuCloseImg = document.getElementById("burgerMenuCloseImg");
 
@@ -22,6 +22,7 @@ mode.onclick = () => {
     menu.style.filter = "invert(100%)";
     mapContainer.style.filter = "invert(100%)";
     mode.style.filter = "invert(100%)";
+    burgerMenu.style.filter = "invert(100%)";
     mode.style.boxShadow = "3px 3px 4px lightgray";
     menu.style.boxShadow = "3px 3px 4px lightgray";
   } else if (num % 2 == 0) {
@@ -36,6 +37,7 @@ mode.onclick = () => {
     mode.style.boxShadow = "3px 3px 4px gray";
     menu.style.boxShadow = "3px 3px 4px gray";
     mapContainer.style.filter = "invert(0%)";
+    burgerMenu.style.filter = "invert(0%)";
   }
   num++;
 };

@@ -56,7 +56,7 @@
   padding: 14px 16px;
 }
 
-#menu img {
+#logo {
   float: left;
   width: 100px;
   height: 100px;
@@ -227,14 +227,15 @@ iframe {
 #burgerMenuImg {
   display: none;
   position: absolute;
-  margin-left: 80%;
+  margin-left: 85%;
+  margin-top:25px;
 }
 
 #burgerMenuCloseImg {
   display: none;
   position: absolute;
-  margin-left: 80%;
-  width: 525px;
+  margin-top: 25px;
+  margin-left: 85%;
 }
 
 @media only screen and (max-width: 1250px) {
@@ -284,6 +285,7 @@ iframe {
     height: 370px;
     width: 99%;
   }
+
 }
 
 @media only screen and (max-width: 1100px) {
@@ -322,6 +324,7 @@ iframe {
     width: 100%;
     margin: 0 auto;
   }
+  
 }
 
 @media only screen and (max-width: 800px) {
@@ -340,7 +343,10 @@ iframe {
     margin-top: 0px;
     background-size: contain;
   }
-}
+
+  }
+
+
 
 @media only screen and (max-width: 500px) {
   body {
@@ -425,4 +431,5 @@ iframe {
   #burgerMenuImg {
     display: block;
   }
+
 }

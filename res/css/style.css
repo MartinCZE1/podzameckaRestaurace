@@ -188,7 +188,6 @@ iframe {
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   border: 1px solid black;
-
 }
 
 #imageTwo {
@@ -201,6 +200,41 @@ iframe {
 
 #imageOne {
   border-radius: 10px;
+}
+
+#burgerMenu {
+  width: 100%;
+  background-color: #fff;
+  height: fit-content;
+  z-index: 1;
+  display: none;
+  margin-top: 100px;
+  position: fixed;
+}
+
+#burgerMenu a {
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20pt;
+  color: black;
+  padding: 16px;
+  border-bottom: #000000 1px solid;
+  z-index: 1;
+}
+
+#burgerMenuImg {
+  display: none;
+  position: absolute;
+  margin-left: 80%;
+}
+
+#burgerMenuCloseImg {
+  display: none;
+  position: absolute;
+  margin-left: 80%;
+  width: 525px;
 }
 
 @media only screen and (max-width: 1250px) {
@@ -364,12 +398,11 @@ iframe {
   }
 
   #menu img {
-    float: none;
+    float: left;
   }
 
   #menu {
     margin: 0 auto;
-    text-align: center;
   }
 
   #genInfo {
@@ -387,5 +420,9 @@ iframe {
   #mode {
     margin-left: 0px;
     width: 50px;
+  }
+
+  #burgerMenuImg {
+    display: block;
   }
 }

@@ -7,6 +7,9 @@ const openHours = document.getElementById("openHours");
 const guestHouseInfo = document.getElementById("guestHouseInfo");
 const mapContainer = document.getElementById("mapContainer");
 
+const burgerMenuImg = document.getElementById("burgerMenuImg");
+const burgerMenuCloseImg = document.getElementById("burgerMenuCloseImg");
+
 let num = 1;
 mode.onclick = () => {
   if (num % 2 == 1) {
@@ -33,7 +36,21 @@ mode.onclick = () => {
     mode.style.boxShadow = "3px 3px 4px gray";
     menu.style.boxShadow = "3px 3px 4px gray";
     mapContainer.style.filter = "invert(0%)";
-   
   }
   num++;
 };
+
+burgerMenuImg.addEventListener("click", burgerMenuOpen);
+burgerMenuCloseImg.addEventListener("click", burgerMenuClose);
+
+function burgerMenuOpen() {
+  burgerMenu.style.display = "block";
+  burgerMenuCloseImg.style.display = "block";
+  burgerMenuImg.style.display = "none";
+}
+
+function burgerMenuClose() {
+  burgerMenu.style.display = "none";
+  burgerMenuCloseImg.style.display = "none";
+  burgerMenuImg.style.display = "block";
+}

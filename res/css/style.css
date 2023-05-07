@@ -56,7 +56,7 @@
   padding: 14px 16px;
 }
 
-#logo {
+#menu img {
   float: left;
   width: 100px;
   height: 100px;
@@ -188,6 +188,7 @@ iframe {
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   border: 1px solid black;
+
 }
 
 #imageTwo {
@@ -249,7 +250,6 @@ iframe {
     height: 370px;
     width: 99%;
   }
-
 }
 
 @media only screen and (max-width: 1100px) {
@@ -288,7 +288,6 @@ iframe {
     width: 100%;
     margin: 0 auto;
   }
-  
 }
 
 @media only screen and (max-width: 800px) {
@@ -307,10 +306,7 @@ iframe {
     margin-top: 0px;
     background-size: contain;
   }
-
-  }
-
-
+}
 
 @media only screen and (max-width: 500px) {
   body {
@@ -367,8 +363,13 @@ iframe {
     font-size: 13pt;
   }
 
+  #menu img {
+    float: none;
+  }
+
   #menu {
     margin: 0 auto;
+    text-align: center;
   }
 
   #genInfo {
